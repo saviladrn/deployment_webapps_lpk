@@ -19,5 +19,5 @@ if tombol:
 press=st.button("Tampilkan Kesimpulan")
 
 if press:
-    kesimpulan=bobot/(mr*volume)
+    kesimpulan=bobot/(mr*volume*fp)
     st.write(f"Bahan baku sekunder",sampel,"yang telah distandarisasi oleh",penitar,"bernilai",kesimpulan,"mol/L")
