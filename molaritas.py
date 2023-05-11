@@ -5,7 +5,7 @@ import numpy as np
 from streamlit_option_menu import option_menu
 
 #welcome
-with st. sidebar :
+with st.sidebar :
     
     from PIL import Image
     
