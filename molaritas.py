@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 #welcome
 with st. sidebar :
     
-    frpm PIL import Image
+    from PIL import Image
     
     image = Image.open("mol.jpg")
     
