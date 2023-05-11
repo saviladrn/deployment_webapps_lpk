@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.title("Aplikasi Menghitung Molaritas")
-st.image("mol.jpg")
+st.header("Ini merupakan aplikasi penghitung nilai molaritas suatu larutan.")
 
 sampel = st.text_input("Masukkan nama bahan baku sekunder")
 penitar = st.text_input("Masukkan nama bahan baku primer")
