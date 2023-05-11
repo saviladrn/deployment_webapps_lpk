@@ -6,7 +6,7 @@ st.title("MCounter")
 st.header("Aplikasi Penghitung Molaritas")
 st.subheader("Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu zat terlarut dalam satu liter larutan. ")
 
-image = Image.open('mol.jpg')
+image = image.open('molaritas.png')
 
 st.image(image, caption='Rumus Molaritas')
 
