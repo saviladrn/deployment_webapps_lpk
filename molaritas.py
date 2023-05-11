@@ -1,5 +1,5 @@
 import streamlit as st
-import numpy as np
+
 from PIL import image
 
 st.title("MCounter")
