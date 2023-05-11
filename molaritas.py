@@ -3,7 +3,7 @@ from PIL import Image
 
 st.title("MCounter")
 st.header("Aplikasi Penghitung Molaritas")
-st.subheader("Molaritas adalah suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu zat terlarut dalam satu liter larutan. ")
+st.subheader("Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu zat terlarut dalam satu liter larutan. ")
 
 sampel = st.text_input("Masukkan nama bahan baku sekunder")
 penitar = st.text_input("Masukkan nama bahan baku primer")
