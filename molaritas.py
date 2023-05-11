@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from PIL import Image
+from PIL import image
 
 st.title("MCounter")
 st.header("Aplikasi Penghitung Molaritas")
