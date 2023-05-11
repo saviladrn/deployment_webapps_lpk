@@ -1,5 +1,7 @@
 import streamlit as st
 
+from PIL import image
+
 st.title("MCounter")
 st.header("Aplikasi Penghitung Molaritas")
 st.subheader("Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu zat terlarut dalam satu liter larutan. ")
