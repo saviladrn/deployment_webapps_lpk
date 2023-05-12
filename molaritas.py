@@ -11,6 +11,11 @@ st.subheader("Aplikasi Penghitung Molaritas")
 st.write("""Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu 
 zat terlarut dalam satu liter larutan.""")
 
+video_file = open('hoho.gif', 'rb')
+video_bytes = video_file.read()
+
+st.video(video_bytes)
+
 image = Image.open("molarritas.jpg")
 
 st.image(image, caption="Rumus Molaritas")
