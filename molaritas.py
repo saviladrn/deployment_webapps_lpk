@@ -8,7 +8,7 @@ image = Image.open("judul.jpeg")
 st.image(image)
 
 st.subheader("Aplikasi Penghitung Molaritas")
-st.title("Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu zat terlarut dalam satu liter larutan. ")
+st.text("Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu zat terlarut dalam satu liter larutan. ")
 
 image = Image.open("molarritas.jpg")
 
