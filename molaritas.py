@@ -3,11 +3,14 @@ import numpy as np
 
 from PIL import Image
 
-st.title("MCounter")
+image = Image.open("judul.jpeg")
+
+st.image(image)
+
 st.header("Aplikasi Penghitung Molaritas")
 st.subheader("Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan jumlah mol suatu zat terlarut dalam satu liter larutan. ")
 
-image = Image.open("molaritass.jpeg")
+image = Image.open("moool.jpeg")
 
 st.image(image, caption="Rumus Molaritas")
 
