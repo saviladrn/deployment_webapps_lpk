@@ -12,7 +12,7 @@ st.write("""Molaritas merupakan suatu konsentrasi larutan yang mendefinisikan ju
 zat terlarut dalam satu liter larutan. Untuk menghitung molaritas, rumusnya sebagai berikut. Anda
 bisa masukkan data yang ingin anda hitung supaya memperoleh hasil nilai molaritas.""")
 
-image = Image.open("rumusM.jpg")
+image = Image.open("rumusM.jpeg")
 
 st.image(image, caption="Rumus Molaritas")
 
