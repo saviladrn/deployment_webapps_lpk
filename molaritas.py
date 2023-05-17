@@ -28,4 +28,5 @@ tombol = st.button("Tampilkan Hasil dan Kesimpulan")
 
 if tombol:
     molaritas=bobot/(mr*volume*fp)
+    st.write(round(bobot/(mr*volume*fp)/molaritas,4)
     st.write(f"Bahan baku sekunder",sampel,"yang telah distandarisasi oleh",penitar,"bernilai",molaritas,"mol/L")
