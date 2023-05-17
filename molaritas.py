@@ -24,14 +24,8 @@ volume = st.number_input("Masukkan volume larutan bahan baku sekunder (mL)")
 mr = st.number_input("Masukkan nilai Mr bahan baku primer (g/mol)")
 fp = st.number_input("Masukkan nilai faktor pengenceran")
 
-tombol = st.button("Hitung nilai Molaritas")
+tombol = st.button("Tampilkan Hasil dan Kesimpulan")
 
 if tombol:
     molaritas=bobot/(mr*volume*fp)
-    st.success(f'Nilai Molaritas adalah {molaritas}')
-    
-press=st.button("Tampilkan Kesimpulan")
-
-if press:
-    kesimpulan=bobot/(mr*volume*fp)
-    st.write(f"Bahan baku sekunder",sampel,"yang telah distandarisasi oleh",penitar,"bernilai",kesimpulan,"mol/L")
+    st.success(f"Bahan baku sekunder",sampel,"yang telah distandarisasi oleh",penitar,"bernilai",kesimpulan,"mol/L")
