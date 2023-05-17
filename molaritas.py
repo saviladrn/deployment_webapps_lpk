@@ -3,7 +3,7 @@ import numpy as np
 
 from PIL import Image
 
-image = Image.open("molfix.jpeg")
+image = Image.open("rumusM.jpeg")
 
 st.image(image)
 
